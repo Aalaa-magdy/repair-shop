@@ -16,11 +16,11 @@ export default function Home() {
       />
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/70 z-0" />
+      <div className="absolute inset-0 z-0 bg-black/70" />
 
       {/* Content */}
-      <main className="relative z-10 flex flex-col justify-center items-center min-h-screen text-center p-4">
-        <div className="flex flex-col gap-6 p-12 rounded-xl bg-black/80 max-w-96 text-white sm:text-2xl">
+      <main className="relative z-10 flex flex-col items-center justify-center min-h-screen p-4 text-center">
+        <div className="flex flex-col gap-6 p-12 text-white rounded-xl bg-black/80 max-w-96 sm:text-2xl">
           <h1>ZeroTech&apos;s<br />Repair Shop</h1>
           <address className="not-italic">
             555 GateWay Lane<br />
